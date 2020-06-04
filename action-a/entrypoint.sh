@@ -1,3 +1,3 @@
-#!/bin/sh -l
+#!/bin/bash
 
-sh -c "echo Hello world my name is $INPUT_MY_NAME"
+bash -c "echo Hello world from is $INPUT_MY_NAME at " $(time)
